@@ -3,18 +3,20 @@ body {
 }
 
 .button_discret {
-    background-color: white;
-    border: 2px solid black;
-    font-size: 1em;
+    color: skyblue;
+    background-color: dimgray;
+    font-size: 14px;
     border-radius: 50%;
-    padding: 4px;
+    padding: 3px;
     float: right;
     margin: 10px;
 }
 
 .button_discret:hover {
-    color: skyblue;
-    background-color: dimgray;
+    background-color: red;
+    border: 1.5px solid black;
+    transform: scaleY(1);
+    transition: 1s;
 }
 
 .button_valider {
