@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+.button_discret {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1em;
+    border-radius: 50%;
+    padding: 4px;
+    float: right;
+    margin: 10px;
+}
+
+.button_discret:hover {
+    color: skyblue;
+    background-color: dimgray;
+}
+
+.button_valider {
+    color: white;
+    background-color: rgb(66, 184, 221);
+    ;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-left: 47%;
+    font-size: 1em;
+    border-radius: 30%;
+    padding: 8px;
+}
+
+.button_valider:hover {
+    color: white;
+    transform: rotate(360deg);
+    transition: 2s;
+    box-shadow: 10px 10px 5px 0px #32cb00;
+    background-color: black;
+}
+
+.button_annuler {
+    color: white;
+    background-color: rgb(202, 60, 60);
+    border: 2px solid rgb(202, 60, 60);
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 30%;
+    padding: 6px;
+}
+
+.button_annuler:hover {
+    color: white;
+    transform: rotate(360deg);
+    transition: 2s;
+    box-shadow: 10px 10px 5px 0px #32cb00;
+    background-color: black;
+}
+
+label {
+    font-family: cursive;
+    color: blue;
+    font-size: 18px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+form {
+    margin-top: 10px;
+    ;
+    margin-left: 37%;
+}
+
+img {
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 250px;
+    height: 200px;
+}
